@@ -1,0 +1,81 @@
+/*background sport page*/
+html {
+  background-image: url(../images/canestro.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  margin: 0;
+}
+
+.sport-page {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+}
+
+
+
+.right-side {
+  display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+  margin-right: 30px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.position {
+  display: flex;
+}
+
+.nav-wrapper > .position > h1{
+  justify-content: center;
+  font-size: 1.2em;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div  {
+  margin-left: 10px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: 	#808080;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper a:hover {
+  color: white;
+}
