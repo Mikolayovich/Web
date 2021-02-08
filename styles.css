@@ -10,7 +10,7 @@ body{
 }
 /*Background*/
 html {
-  background-image: url(../images/cassa.jpg);
+  background-image: url(cassa.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
